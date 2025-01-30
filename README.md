@@ -17,23 +17,26 @@ The repository structure is the following.
 ```
 GitHub-Repository
 │   README.md
-│
-└───data - Folder containing your (do not push any data to GitHub. This is for you local use alone.)
+|
+|   License
+|
+|   example_model
+    └───data - Folder containing your (do not push any data to GitHub. This is for you local use alone.)
+        │
+        └───raw
+        └───processed
     │
-    └───raw
-    └───processed
-│
-└───notebooks - Folder containing your data exploration and model training notebooks 
-│
-└───scripts - Generic scripts folder
-│
-└───output - Output folder containing persisted model weights and results such as plots, literature reviews
-│
-└───api - Folder containing an api script for your model
-│
-│   requirements.txt or requirements.in (if using pip-tools)
-│
-│   dockerfile
+    └───notebooks - Folder containing your data exploration and model training notebooks 
+    │
+    └───scripts - Generic scripts folder
+    │
+    └───output - Output folder containing persisted model weights and results such as plots, literature reviews
+    │
+    └───api - Folder containing an api script for your model
+    │
+    │   requirements.txt or requirements.in (if using pip-tools)
+    │
+    │   dockerfile
 ```
 
 ## Setting up an DS environment
