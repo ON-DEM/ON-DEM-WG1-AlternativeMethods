@@ -1,18 +1,13 @@
-# Template data science project
+# EU Cost Action Open Network on DEM Simulations (ON-DEM)
 
-## Project name
+- [Link to COST Action page](https://www.cost.eu/actions/CA22132/)
+- [Link to ON-DEM Confluence page](https://on-dem.atlassian.net/)
 
-For example, MOOI - Energy Control Businesspark
+## WG 1 Alternative Methods (DEM-ML)
 
-### About the project
+[Link to WG1 page](https://on-dem.atlassian.net/wiki/spaces/WG1/overview)
 
-Briefly introduce the project. If available, provide related links to the project, e.g., a webpage
-
-### Team
-
-**Internal project manager(s)**: 
-
-**Researcher(s)**: 
+**Contributors(s)**: 
 
 ## Repository directory structure
 
@@ -23,7 +18,7 @@ The repository structure is the following.
 GitHub-Repository
 │   README.md
 │
-└───data - Folder containing your (versioned)
+└───data - Folder containing your (do not push any data to GitHub. This is for you local use alone.)
     │
     └───raw
     └───processed
