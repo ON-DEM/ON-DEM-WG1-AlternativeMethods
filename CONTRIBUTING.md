@@ -38,6 +38,7 @@ example_model/
     - Avoid using Git submodules for dependencies; prefer listing external packages in `requirements.txt` unless necessary.
     - If your code requires a specific version of Python, clearly specify it in your `README.md`.
 - **Hardware Requirements**: If your project requires specific hardware (e.g., GPU, specific drivers, TPUs), clearly document the setup instructions in your `README.md`.
+- **gitignore**: Add folders and files that should not be committed to the repo, see more info about how to do this [here](https://carpentries-incubator.github.io/git-novice-branch-pr/06-ignore/).
 - **Environment Export (Optional)**: You can export your conda environment with:
 
 ```bash
