@@ -34,8 +34,10 @@ example_model/
 - **Attribution**: Only include code that you have the right to use. If you use third-party code, check the license and cite appropriately.
 - **Data sources**: If your data is public, include links to the original repositories or sources.
 - **Dependencies**:
-    - List all necessary packages in a `requirements.tx`t file (consider version pinning).
-    - Avoid using Git submodules for dependencies; prefer listing external packages in requirements.txt unless necessary.
+    - List all necessary packages in a `requirements.tx`t file (consider [version pinning](https://pip.pypa.io/en/stable/topics/repeatable-installs/#pinning-the-package-versions) for key dependencies).
+    - Avoid using Git submodules for dependencies; prefer listing external packages in `requirements.txt` unless necessary.
+    - If your code requires a specific version of Python, clearly specify it in your `README.md`.
+- **Hardware Requirements**: If your project requires specific hardware (e.g., GPU, specific drivers, TPUs), clearly document the setup instructions in your `README.md`.
 - **Environment Export (Optional)**: You can export your conda environment with:
 
 ```bash
