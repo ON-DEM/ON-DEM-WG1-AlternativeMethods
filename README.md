@@ -43,9 +43,7 @@ To add your own model, create a new folder with a structure similar to `example_
 
 ## Setting up an model development environment
  
-First things first, we presume that all models will be developed in `python`. So 
-
-To setup our dev tech stack we will use `conda` as our environment manager and `pip` as our package manager. We will especially 
+First things first, we presume that all models will be developed in `python`. So, to setup our dev tech stack we will use `conda` as our environment manager and `pip` as our package manager. We will especially 
 use miniconda, which is lighter than anaconda.
 
 ### Miniconda setup 
