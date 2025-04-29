@@ -1,0 +1,3 @@
+notebooks/outputs
+notebooks/wandb
+data/*.hdf5
