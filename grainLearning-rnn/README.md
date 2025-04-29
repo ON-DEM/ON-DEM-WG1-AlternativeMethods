@@ -1,12 +1,12 @@
 # Model: GrainLearning RNN
 
-This is an example of a surrogate model that given the load sequence and contact parameters would predict the macroscopic stress and void ratio.
+This repository contains an example surrogate model, **GrainLearning RNN**, which predicts macroscopic stress and void ratio based on a given load sequence and contact parameters.
 
-Information about the structure of the model (including inputs and outputs) can be found [here](https://grainlearning.readthedocs.io/en/latest/rnn.html#the-rnn-model).
+📘 For detailed model structure, input/output formats, and architecture, please refer to the [GrainLearning RNN documentation](https://grainlearning.readthedocs.io/en/latest/rnn.html#the-rnn-model).
 
-## Installation
+## 🚀 Installation
 
-### Option 1
+### 🔹 Option 1: Manual Setup
 
 ```python
 # Go to grainLearning-rnn folder
@@ -18,30 +18,30 @@ conda activate grainlearning-rnn
 pip install -r requirements.txt
 ```
 
-### Option 2
+### 🔹 Option 2: Environment file
 
-You can also create the environment and install the requirements:
+Use the provided conda environment file to set up everything in one step:
 ```python
 conda env create -f envs/macos_arm.yml
 ```
 
 ### More details
 
-Further, more detailed instructions take a look at the [grainLearning/rnn instructions](https://github.com/GrainLearning/grainLearning/blob/main/grainlearning/rnn/README.md).
+For further, more detailed instructions take a look at the [grainLearning/rnn instructions](https://github.com/GrainLearning/grainLearning/blob/main/grainlearning/rnn/README.md).
 
-⚠️ `GrainLearning/rnn` uses Tensorflow, you may have to follow specific instructions to install Tensorflow for you specific distribution and hardware.
+⚠️ **TensorFlow Note**: `GrainLearning/rnn` uses TensorFlow. You may need to follow specific installation steps depending on your system (e.g., macOS ARM, GPU support).
 
-⚠️ Use python versions <= 3.10
+⚠️ **Python Version**: Please use Python 3.10 or earlier, as later versions are not guaranteed to be compatible.
 
 ## Get started
 
-A minimal example on how to train models can be found in this [notebook](notebooks/train_rnn.ipynb).
+A minimal working example for training the model is available in the [train_rnn.ipynb notebook](notebooks/train_rnn.ipynb).
 
 In the folder `scripts`, you can find the python scripts to run a training of the model.
 
 ## Data
 
-Check more info about the data in [`data/README.md`](data/README.md).
+Details about the datasets used for training and evaluation are available in [`data/README.md`](data/README.md).
 
 ## Results
 
